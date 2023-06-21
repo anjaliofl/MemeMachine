@@ -1,0 +1,134 @@
+
+.nav 
+{
+  background: rgb(159,54,200);
+background: linear-gradient(90deg, rgba(159,54,200,1) 32%, rgba(75,4,104,1) 100%);
+  display:flex;
+  justify-content:flex-start;
+  color:white;
+  align-items: center;
+  padding-left:10px;
+  border-radius:5%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  box-shadow:2px 7px 11px #510453;
+  
+}
+.title
+{
+  padding-left:5px;
+}
+.form 
+{
+  display:flex;
+  justify-content:space-evenly;
+  padding-top:40px;
+align-items: center;
+}
+.input-field
+{
+  border:2px solid rgb(55, 55, 54);
+  padding:10px;;
+  width:25%;
+  border-radius:5px;
+  background-color:rgb(228, 228, 225);
+  color:black;
+  box-shadow:2px 7px 11px #4a4a4a;
+
+  font-size:16px;
+  border:3px solid  rgba(75,4,104);
+}
+.input-field:hover
+{
+  border:3px solid  rgba(75,4,104);
+  box-shadow:2px 7px 11px rgba(75,4,104);
+}
+button 
+{
+  background: rgb(159,54,200);
+background: linear-gradient(90deg, rgba(159,54,200,1) 32%, rgba(75,4,104,1) 100%);
+color:white;
+border:none;
+  padding:17px;
+  font-size:18px;
+  border-radius:50%;
+  box-shadow:2px 7px 11px #510453;
+  cursor: pointer;
+}
+.meme-Img 
+{
+  height:450px;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top:30px;
+  border-radius: 10px;
+  box-shadow:2px 7px 11px rgb(100, 99, 99);
+  border:2px solid rgb(55, 46, 1)
+}
+.meme-text-top{
+position:absolute;
+top:20px;
+left:27%;
+color:white;
+font-size:32px;
+font-family:Impact;
+font-weight:70;
+margin-right:35%;
+
+}
+.meme-text-bottom{
+  position:absolute;
+  top:300px;
+  left:35%;
+  color:white;
+font-size:32px;
+font-family:Impact;
+font-weight:70;
+margin-right:27%;
+
+  }
+  .meme 
+  {
+    position:relative;
+  }
+@media screen and (max-width:900px)
+{
+      button{
+        padding:12px;
+        font-size:12px;
+
+      }
+      .input-field
+      {
+        padding:6px;
+      
+        font-size:12px;
+      }
+      .meme-Img 
+      {
+        margin-left:10%;
+  margin-right:10%;
+  width:80%;
+      
+      }
+      .meme-text-top{
+
+        top:50px;
+        left:12%;
+        font-size:30px;
+       font-weight:120;
+       margin-right:20%;
+       }
+        .meme-text-bottom{
+
+        top:300px;
+        left:20%;
+    
+        font-size:30px;
+        
+        font-weight:120;
+        margin-right:12%;
+          }
+}
+
